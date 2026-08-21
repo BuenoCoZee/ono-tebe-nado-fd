@@ -1,7 +1,34 @@
-@import url("./global.css");
+.link{
+  font-size: 18px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
 
-@import url("./blocks/header.css");
-@import url("./blocks/cover.css");
-@import url("./blocks/lots.css");
-@import url("./blocks/about.css");
-@import url("./blocks/footer.css");
+.link_active {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.overlay {  
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.contacts__link {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.contacts__address {
+  max-width: 240px;
+}

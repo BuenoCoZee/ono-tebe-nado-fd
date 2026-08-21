@@ -7,13 +7,6 @@
   background-size: cover;
 }
 
-.cover__overlay {
-  position: absolute;
-  inset: 0;
-  opacity: 0.6;
-  background-color: #000;
-}
-
 .cover__content {
   position: relative;
 }
@@ -66,14 +59,5 @@
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
-
-  transition:
-    background-color 0.2s ease,
-    border-radius 0.2s ease;
   cursor: pointer;
-
-  &:hover {
-    border-radius: 12px;
-    background-color: #000;
-  }
 }

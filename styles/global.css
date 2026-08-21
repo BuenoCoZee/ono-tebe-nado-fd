@@ -47,30 +47,3 @@ h3 {
   font-weight: bold;
 }
 
-.underline {
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
-
-.no-underline {
-  text-decoration: none;
-  pointer-events: none;
-}
-
-.contacts {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
-}
-
-.contacts__phone,
-.contacts__mail {
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
-
-.contacts__address {
-  max-width: 240px;
-}
