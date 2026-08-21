@@ -34,10 +34,6 @@
   align-self: start;
 }
 
-/* Я применил отрицательный margin, т.к.
-большой letter-spacing создавал слишком крупные
-зазоры по бокам */
-
 .line-center {
   margin-right: -27px;
   text-align: center;
@@ -70,14 +66,14 @@
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
-  cursor: pointer;
 
   transition:
     background-color 0.2s ease,
     border-radius 0.2s ease;
+  cursor: pointer;
 
   &:hover {
-    background-color: #000;
     border-radius: 12px;
+    background-color: #000;
   }
 }

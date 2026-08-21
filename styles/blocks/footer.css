@@ -1,0 +1,27 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 180px 50px 82px 50px;
+}
+
+.contacts__address {
+  max-width: 100%;
+}
+
+.footer__list {
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  gap: 48px;
+  margin-left: auto;
+  list-style: none;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+}

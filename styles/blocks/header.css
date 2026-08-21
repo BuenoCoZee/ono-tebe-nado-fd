@@ -19,13 +19,6 @@
 
 .header__link {
   font-size: 18px;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-
-  &.no-underline {
-    pointer-events: none;
-    text-decoration: none;
-  }
 }
 
 .header__logo {
@@ -36,24 +29,6 @@
 }
 
 .header__contacts {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 1.35;
-}
-
-.contacts__phone {
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
-
-.contacts__mail {
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-}
-
-.contacts__address {
   max-width: 240px;
 }
