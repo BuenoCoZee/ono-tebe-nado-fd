@@ -1,0 +1,75 @@
+.cover {
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  background-image: url("../../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover__overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.cover__content {
+  position: relative;
+  z-index: 1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 106px;
+  color: #fff;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.line-left {
+  align-self: start;
+}
+
+/* Я применил отрицательный margin, т.к.
+большой letter-spacing создавал слишком крупные
+зазоры по бокам */
+
+.line-center {
+  text-align: center;
+  margin-right: -27px;
+}
+
+.line-right {
+  text-align: right;
+  margin-right: -31px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover__text {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.cover__button {
+  border: 1px solid #fff;
+  padding: 12px 32px 11px 31px;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
