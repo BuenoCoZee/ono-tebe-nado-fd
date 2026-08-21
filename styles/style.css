@@ -1,4 +1,4 @@
-.link{
+.link {
   font-size: 18px;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
@@ -9,7 +9,7 @@
   pointer-events: none;
 }
 
-.overlay {  
+.overlay {
   position: absolute;
   inset: 0;
   opacity: 0.6;
